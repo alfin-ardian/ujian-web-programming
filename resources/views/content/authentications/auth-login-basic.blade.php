@@ -41,12 +41,12 @@ $customizerHidden = 'customizer-hide';
             </a>
           </div>
           <!-- /Logo -->
-          <h4 class="mb-1 pt-2">Welcome to {{config('variables.templateName')}}! 👋</h4>
-          <p class="mb-4">Please sign-in to your account and start the adventure</p>
+          <h4 class="mb-1 pt-2">Selamat datang di {{config('variables.templateName')}}! 👋</h4>
+          <p class="mb-4">Silakan login pada form dibawah ini</p>
 
           <form id="formAuthentication" class="mb-3" action="{{url('/')}}" method="POST">
             <div class="mb-3">
-              <label for="email" class="form-label">Email or Username</label>
+              <label for="email" class="form-label">Email atau Username</label>
               <input type="text" class="form-control" id="email" name="email-username" placeholder="Enter your email or username" autofocus>
             </div>
             <div class="mb-3 form-password-toggle">
@@ -65,7 +65,7 @@ $customizerHidden = 'customizer-hide';
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="remember-me">
                 <label class="form-check-label" for="remember-me">
-                  Remember Me
+                  Ingat saya
                 </label>
               </div>
             </div>
@@ -75,9 +75,9 @@ $customizerHidden = 'customizer-hide';
           </form>
 
           <p class="text-center">
-            <span>New on our platform?</span>
+            <span>Belum punya akun?</span>
             <a href="{{url('auth/register-basic')}}">
-              <span>Create an account</span>
+              <span>Buat akun sekarang</span>
             </a>
           </p>
 

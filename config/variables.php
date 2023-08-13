@@ -1,10 +1,10 @@
 <?php
 // Variables
 return [
-  "creatorName" => "Pixinvent",
-  "creatorUrl" => "https://pixinvent.com",
-  "templateName" => "Vuexy",
-  "templateSuffix" => "Bootstrap Admin Template",
+  "creatorName" => "Alfin Ardian",
+  "creatorUrl" => "https://github.com/alfin-ardian",
+  "templateName" => "Ujian App",
+  "templateSuffix" => "Ujian App",
   "templateVersion" => "1.0.0",
   "templateFree" => false,
   "templateDescription" => "Start your development with a Dashboard for Bootstrap 5",
@@ -18,7 +18,7 @@ return [
   "generator" => "",
   "changelog" => "https://demos.pixinvent.com/vuexy/changelog.html",
   "repository" => "https://github.com/pixinvent/vuexy-html-admin-template",
-  "gitRepo" => "pixinvent",
+  "gitRepo" => "https://github.com/alfin-ardian",
   "gitRepoAccess" => "vuexy-html-admin-template",
   "githubFreeUrl" => "https://tools.pixinvent.com/github/github-access",
   "facebookUrl" => "https://www.facebook.com/pixinvents/",

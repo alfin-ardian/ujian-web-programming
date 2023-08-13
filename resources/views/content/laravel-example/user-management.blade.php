@@ -125,6 +125,16 @@
           <th>Actions</th>
         </tr>
       </thead>
+      <thead class="border-top">
+        <tr>
+          <th></th>
+          <th>123</th>
+          <th>admin</th>
+          <th>admin@mail.com</th>
+          <th>sat 25 jan 2020</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
     </table>
   </div>
   <!-- Offcanvas to add new user -->

@@ -42,10 +42,10 @@ $customizerHidden = 'customizer-hide';
             </a>
           </div>
           <!-- /Logo -->
-          <h4 class="mb-1 pt-2">Adventure starts here 🚀</h4>
-          <p class="mb-4">Make your app management easy and fun!</p>
+          <h4 class="mb-1 pt-2">Selamat datang</h4>
+          <p class="mb-4">Silakan isi form dibawah ini!</p>
 
-          <form id="formAuthentication" class="mb-3" action="{{url('/')}}" method="POST">
+          <form id="formAuthentication" class="mb-3" action="{{url('/auth/register')}}" method="POST">
             <div class="mb-3">
               <label for="username" class="form-label">Username</label>
               <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username" autofocus>
@@ -62,29 +62,20 @@ $customizerHidden = 'customizer-hide';
               </div>
             </div>
 
-            <div class="mb-3">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms">
-                <label class="form-check-label" for="terms-conditions">
-                  I agree to
-                  <a href="javascript:void(0);">privacy policy & terms</a>
-                </label>
-              </div>
-            </div>
             <button class="btn btn-primary d-grid w-100">
               Sign up
             </button>
           </form>
 
           <p class="text-center">
-            <span>Already have an account?</span>
+            <span>Sudah punya akun?</span>
             <a href="{{url('auth/login-basic')}}">
-              <span>Sign in instead</span>
+              <span>Sign in</span>
             </a>
           </p>
 
           <div class="divider my-4">
-            <div class="divider-text">or</div>
+            <div class="divider-text">atau</div>
           </div>
 
           <div class="d-flex justify-content-center">
